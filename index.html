@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="todo-list-wrapper">
+        <form id="form-todo">
+          <div class="todo-list-input">
+            <input type="text" id="todo-title" />
+          </div>
+          <button type="submit" class="add-todo">add</button>
+          <button type="button" class="submit-edit-todo">edit</button>
+        </form>
+        <div class="todos">
+          <ul id="todos-list"></ul>
+        </div>
+      </div>
+      <div class="done-list-wrapper">
+        <h2>Done</h2>
+        <div class="dones">
+          <ul id="dones-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
